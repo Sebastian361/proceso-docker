@@ -26,4 +26,5 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: sebastian20310701/proceso-docker
+          tags: sebastian20310701/proceso-docker:latest  # Asegúrate de que el nombre sea correcto
+
